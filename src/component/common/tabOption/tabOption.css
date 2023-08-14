@@ -1,0 +1,39 @@
+.tab-options{
+    box-shadow: var(--border-white) 0px -0.5px 0px inset;
+}
+.option-wrapper{
+    display: flex;
+}
+.tab-item{
+    margin-right: 25px;
+    padding: 12px 12px 20px 12px;
+}
+.tab-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 12px;
+    color: var(--inactive-tab-option);
+    letter-spacing:1.5px;
+    /* border-bottom: 2px solid red; */
+}
+.tab-image-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: var(--inactive-color-tab);
+}
+.tab-image{
+    height: 30px;
+    width: 30px;
+}
+
+.active-tab{
+    border-bottom: 2px solid var(--active-tab-option);
+
+}
+.active-tab .tab-name{
+    color: var(--active-tab-option);
+}
+.active-tab .tab-image-container{
+    background-color: var(--active-color-tab);
+}

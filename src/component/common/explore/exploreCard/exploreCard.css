@@ -1,0 +1,129 @@
+.explore-card {
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+
+}
+
+.explore-card-cover {
+    height: 248px;
+    width: 320px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.delivery-time {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+
+.promotion {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--primary-bg);
+    font-size: 10px;
+    background-color: black;
+    padding: 0px 5px 0px 5px;
+    border-radius: 6px;
+    backdrop-filter: blur(8px);
+    opacity: 0.5;
+}
+
+.pro-offer {
+    position: absolute;
+    bottom: 20px;
+    /* left: 1px; */
+    color: var(--primary-bg);
+    font-weight: 600;
+    background-color: var(--explore-offer-color);
+    padding-right: 3px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.explore-body {
+    height: 130px;
+    width: 328px;
+}
+
+.explore-body-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-title-text {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 75%;
+    /* margin-left: 8px;
+    margin-top: 8px; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.explore-rating {
+    margin-top: 8px;
+    margin-right: 8px;
+    font-size: 12px;
+    background-color: var(--explore-rating-color);
+    color: var(--primary-bg);
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.explore-cuisine {
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--inactive-tab-option);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 50%;
+    /* max-height: 5%;  */
+
+}
+
+.explore-price {
+    font-size: 15px;
+    font-weight: 100;
+    color: var(--inactive-tab-option);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 30%;
+}
+.explore-footer{
+    /* height: 100;
+    width: 100; */
+    display: flex;
+    border-top: 1px solid var(--border-white);
+    margin-top: 10px;
+    padding-top: 8px;
+
+    
+}
+.explore-footer-image{
+  margin-top: 6px;
+  height: 18px;
+  width: 48px;
+}
+.explore-footer-text{
+    margin-left: 5px;
+    font-size: 12px;
+    color: var(--inactive-tab-option);
+}

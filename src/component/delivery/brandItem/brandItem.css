@@ -1,0 +1,38 @@
+.brand-item-cover{
+    height: 150px;
+    width: 150px;
+    background-color: var(--primary-bg);
+    border-radius: 10%;
+    box-shadow: var(--active-color-tab);
+    border: 0.5px solid var(--border-white);
+
+}
+
+
+.brand-item-image{
+    border-radius: inherit;
+    height:100% ;
+    width: 100%;
+    object-fit:cover;
+    /* box-shadow: 50px var(--active-color-tab) inset ; */
+    border: 2px solid var(--primary-box-shadow) ;
+    
+}
+.brand-info{
+    margin-left: 8%;
+    margin-top: 5%;
+    /* padding: 10px; */
+    display: grid;
+
+}
+
+.brand-info-title{
+    font-weight: 550;
+    font: bold;
+    font-size: 18px;
+    text-overflow:ellipsis;
+    overflow:hidden;
+}
+.brand-info-time{
+    margin-top: 5px;
+}
