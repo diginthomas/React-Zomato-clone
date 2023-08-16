@@ -1,6 +1,6 @@
 import React from "react";
 import "../exploreCard/exploreCard.css";
-const ExploreCard = (props) => {
+ const ExploreCard = (props) => {
   const { restaurant } = props;
   const name = restaurant?.info?.name ?? "";
   const coverImage = restaurant?.info?.image?.url;
