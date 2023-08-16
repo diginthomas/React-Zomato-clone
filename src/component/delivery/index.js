@@ -31,7 +31,7 @@ export const Delivery = () => {
   return (
     <div>
      <div className='max-width'>
-     <Filters deliveryFilters ={deliveryFilters}></Filters>
+     <Filters filters ={deliveryFilters}></Filters>
      </div>
      <DeliveryCollection></DeliveryCollection>
      <BrandCollection></BrandCollection>

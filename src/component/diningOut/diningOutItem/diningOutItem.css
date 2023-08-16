@@ -1,0 +1,38 @@
+
+.dining-collection-item{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+
+}
+.dining-collection-cover{
+    height: 320px;
+    width: 241px;
+    position: relative;
+}
+.dining-collection-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.dining-item-collection-title{
+    position: absolute;
+    bottom: 25px;
+    left: 5px;
+    color: var(--primary-bg);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 500;
+}
+.dining-item-collection-subtitle{
+position: absolute;
+font-size: small;
+bottom: 6px;
+left: 5px;
+color: var(--primary-bg);
+}
+.dining-out-item-icon{
+    margin-left: 8px;
+}

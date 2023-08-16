@@ -2,10 +2,10 @@ import React from 'react'
 import "../filters/filters.css"
 import FilterItem from './filterItem'
 export const Filters = (props) => {
-   const {deliveryFilters} = props
+   const {filters} = props
   return (
     <div className='filters'>
-     {deliveryFilters && deliveryFilters.map((filter) => {
+     {filters && filters.map((filter) => {
         return <FilterItem filter={filter} key={filter.id}></FilterItem>
      })}
     </div>
