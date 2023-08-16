@@ -9,6 +9,9 @@
     border-radius: 8px;
     font-size: 14px
 }
+.filter-item:hover{
+    background-color: var(--inactive-color-tab );
+}
 .filter-name{
     margin-left: 5px;
 }
