@@ -25,7 +25,7 @@ export default function Header() {
                 </div>
             </div>
             <div className="profile-wrapper">
-              <img src="https://b.zmtcdn.com/data/dish_photos/4a2/b9ae1735dd5efa851db611a45556b4a2.jpg" className="header-profile-image"></img>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEZrATmgHOi5ls0YCCQBTkocia_atSw0X-Q&usqp=CAU" className="header-profile-image"></img>
               <span className="header-profile-name">Digin </span>
               <i class="fa fa-angle-down header-profile-icon" aria-hidden="true"></i>
 
